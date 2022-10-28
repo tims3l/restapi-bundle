@@ -1,7 +1,7 @@
 {
   "name": "tims3l/restapi-bundle",
   "type": "symfony-bundle",
-  "version": "0.1",
+  "license": "LGPL-2.0-or-later",
   "description": "tims3l restapi api symfony bundle",
   "keywords": [
     "tims3l",
