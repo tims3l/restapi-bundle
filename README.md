@@ -8,18 +8,8 @@ Restapi bundle is a `Symfony` / `Doctrine` based `REST API` library, written in 
 
 ## Installation
 ```shell
-composer require tims3l/restapi-bundle
+composer require tims3l/restapi-bundle:dev-develop
 cp vendor/tims3l/restapi-bundle/config/packages/tims3l_restapi.yaml config/packages/tims3l_restapi.yaml
-```
-```php
-<?php
-# bundles.php
-return [
-    // ...
-    Tims3l\RestApi\Tims3lRestApiBundle::class => ['all' => true],
-];
-```
-```shell
 bin/console cache:clear
 ```
 
